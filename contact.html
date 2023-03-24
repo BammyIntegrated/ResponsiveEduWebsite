@@ -13,6 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
 </head>
 <body>
     <!-- Nav Section Starts Here -->
@@ -50,14 +51,22 @@
                     </p>
 
                     <ul class="contact__details">
-                        <li><i class="uil uil-phone-volume"></i></li>
-                        <h5>+234 703 253 3699</h5>
+                        <li>
+                            <i class="uil uil-phone-volume"></i>
+                            <h5>+234 703 253 3699</h5>
+                        </li>
 
-                        <li><i class="uil uil-envelope-download"></i></li>
-                        <h5>bammyintegrated@gmail.com</h5>
+                        <li>
+                            <i class="uil uil-envelope-download"></i>
+                            <h5>bammyintegrated@gmail.com</h5>
+                        </li>
 
-                        <li><i class="uil uil-map-pin"></i></li>
-                        <h5>Akure, Nigeria</h5>
+
+                        <li>
+                            <i class="uil uil-map-pin"></i>
+                            <h5>Akure, Nigeria</h5>
+                        </li>
+
                     </ul>
 
                     <ul class="contact__socials">
@@ -68,25 +77,24 @@
                         <li><a href="https://instagram.com/bammyintegrated" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
                        
                     </ul>
-
-
-
                 </aside>
 
+                    <form action="https://formspree.io/f/mdovlpyl" method="POST" class="contact__form">
+                        <div class="form__name">
+                            <input type="text" name="First Name" placeholder="First Name" required>
+                            <input type="text" name="Last Name" placeholder="Last Name" required>
+                        </div>
+                    <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                        <textarea name="Message" rows="7" placeholder="Text Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
 
+
+                    </form>
 
             </div>
 
         </section>
     <!-- Contact Section Ends Here -->
-
-
-
-
-
-
-
-
 
     <!-- Footer Section Starts Here -->
 <footer>
